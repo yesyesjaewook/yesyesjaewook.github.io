@@ -15,6 +15,41 @@ body {
 }
 
 
+/*마우스*/
+
+
+/* 마우스 커서 포인터 */
+
+html,
+body,
+.fr-popup.emoticons,
+.fr-top,
+select.form-control,
+input[type=checkbox],
+input[type=radio],
+.opt {
+    cursor: url('https://yesyesjaewook.github.io/images/jeotbi.gif') 0 0, auto !important;
+}
+
+
+/* 마우스 커서 링크 */
+
+#right-search-form>#right-search-btn,
+#board-info #board-info-bottom #addFavoriteBtn,
+#article-list #article-option-area>#article-option-area-toggle-btn,
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+.reply>.reply-header>.reply-writer.logged,
+.reply-menu,
+.btn,
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-view img,
+.pull-left,
+a {
+    cursor: url('https://yesyesjaewook.github.io/images/jeotbi.gif') 0 0, auto !important;
+}
+
+<
 /* 전체 쉐도우 */
 
 header #header-bar>.row,
