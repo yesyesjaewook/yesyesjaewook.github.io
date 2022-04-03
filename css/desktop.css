@@ -15,75 +15,6 @@ body {
 }
 
 
-/*마우스*/
-
-@keyframes cursor {
-    0% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/1.png') 0 0, auto;
-    }
-    5% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/2.png') 0 0, auto;
-    }
-    10% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/3.png') 0 0, auto;
-    }
-    15% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/4.png') 0 0, auto;
-    }
-    20% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/5.png') 0 0, auto;
-    }
-    25% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/6.png') 0 0, auto;
-    }
-    30% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/7.png') 0 0, auto;
-    }
-    35% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/8.png') 0 0, auto;
-    }
-    40% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/9.png') 0 0, auto;
-    }
-    45% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/10.png') 0 0, auto;
-    }
-    50% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/11.png') 0 0, auto;
-    }
-    55% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/12.png') 0 0, auto;
-    }
-    60% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/13.png') 0 0, auto;
-    }
-    65% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/14.png') 0 0, auto;
-    }
-    70% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/15.png') 0 0, auto;
-    }
-    75% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/16.png') 0 0, auto;
-    }
-    80% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/17.png') 0 0, auto;
-    }
-    85% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/18.png') 0 0, auto;
-    }
-    90% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/19.png') 0 0, auto;
-    }
-    95% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/20.png') 0 0, auto;
-    }
-    100% {
-        cursor: url('https://yesyesjaewook.github.io/images/jeotbi/21.png') 0 0, auto;
-    }
-}
-
-
 /* 마우스 커서 포인터 */
 
 html,
@@ -94,7 +25,7 @@ select.form-control,
 input[type=checkbox],
 input[type=radio],
 .opt {
-    cursor: url('https://yesyesjaewook.github.io/images/jeotbi/1.png') 0 0, auto !important;
+    cursor: url('https://yesyesjaewook.github.io/images/jeotbi.png') 0 0, auto !important;
     animation: cursor 147ms infinite;
 }
 
@@ -113,7 +44,7 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
-    cursor: url('https://yesyesjaewook.github.io/images/jeotbi/1.png') 0 0, auto !important;
+    cursor: url('https://yesyesjaewook.github.io/images/jeotbi.png') 0 0, auto !important;
     animation: cursor 147ms infinite;
 }
 
