@@ -225,7 +225,7 @@ header #header-bar .fa {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명";
+    content: "억명";
     cursor: text;
 }
 
