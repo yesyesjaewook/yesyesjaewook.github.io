@@ -119,6 +119,16 @@ header #header-bar .fa {
     color: var(--first-color);
 }
 
+#board-info #viewers-area #viewers:before {
+    content: "꾸익꾸익 젖청자 ";
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text;
+}
+
 
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
