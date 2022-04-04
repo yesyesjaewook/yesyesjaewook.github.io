@@ -6,7 +6,7 @@
 :root {
   --main-color: rgb(39, 73, 109);	/* 메인색 */
   --background-color: rgb(187, 225, 250);	/* 배경색 */
-  --background-secondary-color: rgba(187, 225, 250, 0.3);
+  --background-secondary-color: rgb(234, 246, 253);
 
   --background-image: url('https://yesyesjaewook.github.io/images/background.png');
   --logo-image: url('https://yesyesjaewook.github.io/images/header.png');
