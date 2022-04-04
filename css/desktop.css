@@ -219,7 +219,7 @@ span.a-badge i.fa.fa-info-circle { color: var(--main-color) !important; }
     text-overflow: clip !important;
     white-space: unset !important;
 }
-/* 게시클 하트 컬러 */
+/* 게시글 하트 색상 */
 #article-list > .article-list-row > .item > .list-title > small.favo i.fa.fa-heart { color: var(--main-color); }
 
 /* 게시글 내부 상단 테두리 */
