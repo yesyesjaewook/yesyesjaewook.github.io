@@ -138,6 +138,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #board-info h1 {
   border: none !important;
   margin-top: 3px !important;
+  font-weight: bold !important;
 }
 #board-info h1 > a { color: var(--main-color) !important; }
 
