@@ -244,6 +244,10 @@ span.a-badge i.fa.fa-info-circle { color: var(--main-color) !important; }
   border-top: 2px solid var(--main-color) !important;
 }
 
+/* 하트 컬러 */
+small.favo i.fa.fa-heart {
+  color: var(--main-color);
+}
 
 /* 게시글 페이지 */
 .pagination > li > a,
