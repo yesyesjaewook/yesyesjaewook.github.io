@@ -58,9 +58,9 @@ header .row > div:nth-child(1) > a > img {
 }*/
 
 header .row > .col-xs-4 {
-    background: var(--logo-secondary-image) no-repeat;
-    background-size: auto 50px;
-    background-position-x: var(--logo-width);
+  background: var(--logo-secondary-image) no-repeat;
+  background-size: auto 50px;
+  background-position-x: var(--logo-width);
 }
 
 
@@ -81,9 +81,9 @@ header #header-bar { margin-bottom: 10px !important; }
 
 /* 헤더 상단 메뉴 */
 header #header-bar > .row {
-    border: none !important;
-    border-top: 4px solid var(--main-color) !important;
-    border-radius: 0 0 5px 5px !important;
+  border: none !important;
+  border-top: 4px solid var(--main-color) !important;
+  border-radius: 0 0 5px 5px !important;
 }
 
 /* 헤더 광고 뱃지 */
@@ -221,8 +221,8 @@ span.a-badge i.fa.fa-info-circle { color: var(--main-color) !important; }
 
 #article-list > .article-list-row > .item > .list-title > .list-category { padding: 0 10px !important; }
 #article-list > .article-list-row > .item > .list-title > .list-category > span {
-    text-overflow: clip !important;
-    white-space: unset !important;
+  text-overflow: clip !important;
+  white-space: unset !important;
 }
 
 /* 인기 게시글 배경 색상 */
@@ -346,10 +346,10 @@ input.form-control {
 select.form-control,
 input#title,
 .input-group-btn > button#addPollBtn {
-    --btcolor: var(--main-color);
-    height: 30px !important;
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
+  --btcolor: var(--main-color);
+  height: 30px !important;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 div#title_color > input { height: 30px !important; }
@@ -368,7 +368,7 @@ input.form-control:focus::placeholder {
 /* 버튼, 하단 검색 끝 */
 
 a.custom-badge-link {
-    border: none !important;
+  border: none !important;
 }
 
 /* 상단으로 이동 */
