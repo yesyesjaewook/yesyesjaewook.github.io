@@ -84,7 +84,7 @@ header {
 /* 트게더 로고 */
 /* 로고 변경시 주석 해제 후 url 안에 이미지 주소 입력 */
 header > #header-area > a > h1 {
-  position: absolute;
+  position: relative;
   width: var(--logo-width);
   background: var(--logo-image) no-repeat;
   background-size: var(--logo-width) auto;
