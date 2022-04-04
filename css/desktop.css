@@ -4,19 +4,23 @@
 
 /* 기본 설정 */
 :root {
-  --main-color: #27496D;	/* 메인색 */
-  --background-color: #BBE1FA;	/* 배경색 */
-    --background-image: url('https://yesyesjaewook.github.io/images/background.png');
-    --logo-image: url('https://yesyesjaewook.github.io/images/header.png');
-    --logo-width: 170px;
-    --logo-secondary-image: url('https://yesyesjaewook.github.io/images/jeotsuke.gif');
-    --viewers-leading: '꾸익꾸익 젖청자 ';
-    --viewers-trailing: '억명 대기중';
+  --main-color: rgb(39, 73, 109);	/* 메인색 */
+  --background-color: rgb(187, 225, 250);	/* 배경색 */
+  --background-secondary-color: rgba(187, 225, 250, 0.3);
+
+  --background-image: url('https://yesyesjaewook.github.io/images/background.png');
+  --logo-image: url('https://yesyesjaewook.github.io/images/header.png');
+  --logo-secondary-image: url('https://yesyesjaewook.github.io/images/jeotsuke.gif');
+
+  --logo-width: 170px;
+
+  --viewers-leading: '꾸익꾸익 젖청자 ';
+  --viewers-trailing: '억명 대기중';
 }
 
 html.darkmode:root {
-  --main-color: #BBE1FA;	/* 메인색 */
-  --background-color: #27496D; /* 배경색 */
+  --main-color: rgb(187, 225, 250);	/* 메인색 */
+  --background-color: rgb(39, 73, 109); /* 배경색 */
 }
 
 
@@ -219,6 +223,10 @@ span.a-badge i.fa.fa-info-circle { color: var(--main-color) !important; }
     text-overflow: clip !important;
     white-space: unset !important;
 }
+
+/* 인기 게시글 배경 색상 */
+#article-list > .article-list-row.hot { background-color: var(--background-secondary-color); }
+
 /* 게시글 하트 색상 */
 #article-list > .article-list-row > .item > .list-title > small.favo i.fa.fa-heart { color: var(--main-color); }
 
