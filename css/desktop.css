@@ -186,6 +186,7 @@ button > .fa-eye-slash:before { content: '\f204'; }
 #article-list #article-list-category {
   border-top: 2px solid var(--main-color) !important;
   border-bottom: 2px solid var(--main-color) !important;
+  background: white !important;
 }
 #article-list #article-list-category > a {
   background: transparent !important;
