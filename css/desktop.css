@@ -41,7 +41,15 @@ select.form-control {
   padding: 10px 35px 10px 15px !important;
 }
 
-html { background: var(--background-image) repeat var(--background-color); }
+@keyframes animated-background {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 512px 512px;}
+}
+
+html {
+  background: var(--background-image) repeat var(--background-color);
+  animation: animated-background 20s linear infinite;
+}
 body { background: transparent !important; }
 
 
