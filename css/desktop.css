@@ -8,7 +8,7 @@
   --background-color: rgb(187, 225, 250);	/* 배경색 */
   --background-secondary-color: rgb(234, 246, 253);
 
-  --background-image: url('https://yesyesjaewook.github.io/images/background.png');
+  --background-image: url('https://yesyesjaewook.github.io/images/potato.png');
   --logo-image: url('https://yesyesjaewook.github.io/images/header.png');
   --logo-secondary-image: url('https://yesyesjaewook.github.io/images/jeotsuke.gif');
 
@@ -42,8 +42,8 @@ select.form-control {
 }
 
 @keyframes animated-background {
-  0% {background-position: 0px 0px;}
-  100% {background-position: 512px 512px;}
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 1168px 1168px, 1168px 1168px, 1168px 1168px;}
 }
 
 html {
